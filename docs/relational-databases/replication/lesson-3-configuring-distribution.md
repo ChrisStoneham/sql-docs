@@ -62,11 +62,11 @@ Configuring a Publisher with a remote Distributor is outside the scope of this t
   
 4.  Click **OK** to create the login.  
   
-5.  Repeat steps 1-4 to create a login for the local repl_logreader account. This login must also be mapped to users that are members of the **db_owner** fixed database role in the **distribution** and **AdventureWorks** databases.  
+5.  Repeat steps 1-4 to create a login for the local repl_logreader account. This login must also be mapped to users that are members of the **db_owner** fixed database role in the **distribution** and [!INCLUDE[ssSampleDBobject](../../includes/sssampledbobject-md.md)] databases.  
   
 6.  Repeat steps 1-4 to create a login for the local repl_distribution account. This login must be mapped to a user that is a member of the **db_owner** fixed database role in the **distribution** database.  
   
-7.  Repeat steps 1-4 to create a login for the local repl_merge account. This login must have user mappings in the **distribution** and **AdventureWorks** databases.  
+7.  Repeat steps 1-4 to create a login for the local repl_merge account. This login must have user mappings in the **distribution** and [!INCLUDE[ssSampleDBobject](../../includes/sssampledbobject-md.md)] databases.  
   
 ## See Also  
 [Configure Distribution](../../relational-databases/replication/configure-distribution.md)  
